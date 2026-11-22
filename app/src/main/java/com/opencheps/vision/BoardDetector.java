@@ -17,7 +17,7 @@ public class BoardDetector {
     }
 
     private static final String TAG = "OC/Detector";
-    private static final int WORK_MAX_EDGE = 1600;
+    private static final int WORK_MAX_EDGE = 1080;
     private static final double ACCEPT_THRESHOLD = 18.0;
 
     public static Board locate(Bitmap src) {
