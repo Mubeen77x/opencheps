@@ -58,7 +58,7 @@ public class BoardDetector {
         }
 
         int minSide = Math.max(80, Math.min(W, H) / 3);
-        int maxSide = (int) (Math.min(W, H) * 0.98);
+        int maxSide = (int) (Math.min(W, H) * 0.999);
 
         Candidate best = null;
 
